@@ -1,6 +1,6 @@
 {
   "name": "@standardkit/caas",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "StandardKit - Case as a Service - Case Utility",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -8,6 +8,7 @@
     "test": "jest",
     "build": "tsc",
     "version": "auto-changelog -p && git add CHANGELOG.md",
+    "postversion": "git push && git push --tags",
     "prepublishOnly": "npm test && npm run build",
     "release:patch": "npm version patch && npm publish",
     "release:minor": "npm version minor && npm publish",
