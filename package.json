@@ -1,0 +1,25 @@
+{
+  "name": "@standardkit/caas",
+  "version": "0.0.1",
+  "description": "StandardKit - Case as a Service - Case Utility",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/standardkit/caas.git"
+  },
+  "keywords": [
+    "standardkit",
+    "caas",
+    "case",
+    "utility"
+  ],
+  "author": "Coen Mooij",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/standardkit/caas/issues"
+  },
+  "homepage": "https://github.com/standardkit/caas#readme"
+}
