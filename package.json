@@ -1,6 +1,6 @@
 {
   "name": "@standardkit/caas",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "StandardKit - Case as a Service - Case Utility",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
