@@ -10,5 +10,6 @@ module.exports = {
   collectCoverage: true,
   moduleNameMapper: {'@standardkit/caas': '<rootDir>/src'},
   collectCoverageFrom: ['src/**/*.ts'],
-  coverageDirectory: '../coverage',
+  coverageDirectory: './.coverage',
+  coverageReporters: ["lcov", "text"]
 };
