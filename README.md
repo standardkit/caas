@@ -103,10 +103,7 @@ npm run release:minor
 npm run release:major
 ```
 
-Under the hood this translates to:
-1. `npm test`
-2. `npm run build`
-3. `npm version patch|minor|major`
-4. `npm publish`
+Then, create a release on GitHub.
+
 
 
