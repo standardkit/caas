@@ -1,5 +1,6 @@
 export * from './camel';
 export * from './capitalize';
+export * from './const-case';
 export * from './depascalize';
 export * from './human';
 export * from './kebab';
