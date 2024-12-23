@@ -65,6 +65,7 @@ A utility package to change case. It currently supports:
 
 ## Roadmap
 
+### Features
 - Case Detection
 - Case Conversion
 - Validation
@@ -72,11 +73,14 @@ A utility package to change case. It currently supports:
 - Batch conversion
 
 ### Useful Case Implementations
-
 - dot.case
 - BEM\_\_case
 - lowercase (Function instead of string operation for use in maps)
 - UPPERCASE (Function instead of string operation for use in maps)
+
+### Technical
+- Linters (prettier, eslint)
+- Hooks (husky, lint-staged)
 
 ## License
 
