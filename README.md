@@ -49,6 +49,7 @@ A utility package to change case. It currently supports:
 
 - kebab-case
 - snake_case
+- CONST_CASE
 - camelCase
 - PascalCase
 - human case (maybe needs a different name)
@@ -72,7 +73,6 @@ A utility package to change case. It currently supports:
 
 ### Useful Case Implementations
 
-- CONST_CASE
 - dot.case
 - BEM\_\_case
 - lowercase (Function instead of string operation for use in maps)
