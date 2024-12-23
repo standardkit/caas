@@ -21,5 +21,9 @@
   "bugs": {
     "url": "https://github.com/standardkit/caas/issues"
   },
-  "homepage": "https://github.com/standardkit/caas#readme"
+  "homepage": "https://github.com/standardkit/caas#readme",
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  }
 }
