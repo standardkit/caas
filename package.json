@@ -3,8 +3,15 @@
   "version": "0.0.1",
   "description": "StandardKit - Case as a Service - Case Utility",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "tsc",
+    "version": "auto-changelog -p && git add CHANGELOG.md",
+    "prepublishOnly": "npm test && npm run build",
+    "release:patch": "npm version patch && npm publish",
+    "release:minor": "npm version minor && npm publish",
+    "release:major": "npm version major && npm publish"
   },
   "repository": {
     "type": "git",
@@ -18,6 +25,14 @@
   ],
   "author": "Coen Mooij",
   "license": "Unlicense",
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "bugs": {
     "url": "https://github.com/standardkit/caas/issues"
   },
@@ -25,6 +40,7 @@
   "devDependencies": {
     "@types/jest": "^29.5.14",
     "@types/node": "^22.10.2",
+    "auto-changelog": "^2.5.0",
     "jest": "^29.7.0",
     "ts-jest": "^29.2.5",
     "ts-node": "^10.9.2",
