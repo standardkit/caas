@@ -11,7 +11,7 @@ it is subject to change since we're not quite in version 1 yet.
 
 Feedback is always welcome just take into account this is not currently polished for random people to start using it.
 
-So if you want to use it but you're missing something, let me know. We'll make it happen.
+So if you want to use it, but you're missing something, let me know. We'll make it happen.
 
 ## Installation
 
